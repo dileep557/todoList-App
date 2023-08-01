@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>todoList-app</title>
+</head>
+<body>
+    <div class="container">
+        <div class="todo-List">
+            <div class="search-box">
+                <input type="text" id ="input-box" placeholder="Type your todo list">
+                <button onclick="addTask()">Add</button>
+                <!-- Add onclick event to add task -->
+            </div>
+            <div class="show-task">
+                <p>Complete all tasks</p>
+                <p>Clear completed</p>
+            </div>
+            <hr class="state-line">
+
+           <!-- To  display the task list create unordered list between horizontal line -->
+            <ul id="list-container">
+            </ul>
+
+            <hr class="state-line">
+            <div class="show-task">
+                <p>All</p>
+                <p id="remain-task"> tasks left</p>
+                <p>uncomplete completed</p>
+            </div>
+
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
