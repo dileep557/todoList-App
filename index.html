@@ -17,8 +17,9 @@
                 <!-- Add onclick event to add task -->
             </div>
             <div class="show-task">
-                <p>Complete all tasks</p>
-                <p>Clear completed</p>
+                <i style="color: gray;" class="fa-solid fa-check-double"><small class="complete-clear">&nbsp;&nbsp;&nbsp;Complete all tasks</small></i>
+                
+                <small class="complete-clear">Clear complete</small>
             </div>
             <hr class="state-line">
 
@@ -28,9 +29,10 @@
 
             <hr class="state-line">
             <div class="show-task">
-                <p>All</p>
-                <p id="remain-task"> tasks left</p>
-                <p>uncomplete completed</p>
+                
+                <p id="remain-task" > 0 tasks left </p>
+                
+                <p>All <small id="remain-task">uncomplete completed</small></p>
             </div>
 
         </div>

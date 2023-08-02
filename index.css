@@ -120,3 +120,17 @@ ul li span{
 ul li span:hover{
     background-color: #edeefe;
 } 
+
+#remain-task{
+
+    color: #999; /* Use a gray color or any other color you prefer */
+    opacity: 0.7; /* Optionally reduce opacity to further indicate disabled state */
+    pointer-events:none;
+    
+}
+
+.complete-clear{
+    color: gray;
+    font-weight: 900;
+
+}
